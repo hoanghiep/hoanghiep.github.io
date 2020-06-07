@@ -2,24 +2,25 @@
 <html>
     <head>
         <meta charset="UTF-8">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 <meta name="msapplication-TileColor" content="#00a300">
 <meta name="theme-color" content="#ffffff">
-        <title>Todoro giải pháp học và giảng dạy trực tuyến.</title>
-        <meta name="description" content="todoro, todoro.vn, livestream, học tập, giảng dạy, trực tuyến, phương pháp học tập">
+        <title>Công ty cổ phần phần mềm số hóa Việt.</title>
+        <meta name="description" content="Số hóa, số hóa việt, công nghệ thông tin, lập trình, phần mềm, tư vấn, dịch vụ, ios, android, website">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<meta property="og:url"                content="http://todoro.vn" />
+		<meta property="og:url"                content="//sohoaviet.vn" />
 		<meta property="og:type"               content="page" />
-		<meta property="og:title"              content="Todoro giải pháp học và giảng dạy trực tuyến" />
-		<meta property="og:description"        content="Todoro cung cấp giải pháp học và giảng dạy trực tuyến. Với nền tảng công nghệ mới nhất hiện nay, Todoro mong muốn mang kiến thức của thầy cô đến với các bạn chính xác, nhanh chóng và thuận tiện nhất như khi bạn đang tham gia một lớp học thật sự." />
-		<meta property="og:image"              content="http://todoro.vn/images/logo-512.png" />
-    </head>
-<body>
+		<meta property="og:title"              content="Công ty cổ phần phần mềm số hóa Việt." />
+		<meta property="og:description"        content="Cung cấp dịch vụ thiết kế, gia công phần mềm, tư vấn, triển khai các dự án công nghệ thông tin." />
+		<meta property="og:image"              content="//sohoaviet.vn/images/logo-512.png" />
+
 <style type="text/css">
 body {
   margin: 0;
@@ -33,17 +34,74 @@ body {
           font-feature-settings: 'tnum';
 }
 #container{
-  width: 500px;
-  max-width : 500px;
+  width: 100%;
+  max-width : 100%;
   box-sizing: border-box;
   margin : 0 auto;
   padding : 0px;
-  padding-top:96px;
 }
 p{
   text-align : justify;
 }
 
+header{
+  width:  100%;
+  background: black;
+  height: 72px;
+}
+
+header img{
+  height: 72px;
+}
+header a{
+  margin-left: 32px;
+  display: inline-block;
+  max-height: 72px;
+  text-decoration: none;
+}
+
+#logo{
+  width: 100%;
+  text-align: center;
+}
+
+.company-name{
+  display: inline-block;
+    vertical-align: top;
+    padding-top: 4px;
+    color: white;
+    font-size: 150%;
+}
+
+.info-column{
+  width:  33.333333%;
+  height: calc(100vh - 72px);
+  color: white;
+  float: left;
+  box-sizing: border-box;
+  padding:  10px;
+  line-height:  calc(100vh - 72px);
+}
+.info-column-red{
+  background-color: #f37121;
+}
+
+.info-column-yellow{
+  background-color: #f6cd61;
+}
+.info-column-blue{
+  background-color: #0a97b0;
+}
+
+.info-column a{
+  color: white;
+  text-decoration: none;
+
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 180%;
+}
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -51,14 +109,15 @@ p{
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-#container{
-  width: 100%;
-  max-width : 100%;
-  padding : 20px;
-  padding-top:96px;
-}
-  
+  header a{
+    margin-left: 0px;
+  }
+  .info-column{
+    width:  100%;
+    height: 320px;
+    min-height: 320px;
+    line-height: 320px;
+  }
 }
 
 /* 
@@ -68,51 +127,50 @@ p{
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-#container{
-  width: 100%;
-  max-width : 100%;
-  padding : 20px;
-  padding-top:64px;
-}
+  header a{
+    margin-left: 0px;
+  }
+  .info-column{
+    width:  100%;
+    height: 320px;
+    min-height: 320px;
+    line-height: 320px;
+  }
   
 }
-
-#logo{
-width: 100%;
-    text-align: center;}
-
 </style>
-<div id="container">
-<div id="logo">
-	<img src="./images/logo-256.png"/>
-</div>
-<h1>
-Hi!
-</h1>
-<h3>
-Cảm ơn bạn đã ghé thăm todoro.vn.
-	</h3>
-<p>
-Todoro cung cấp giải pháp học và giảng dạy trực tuyến. Với nền tảng công nghệ mới nhất hiện nay, Todoro mong muốn mang kiến thức của thầy cô đến với các bạn chính xác, nhanh chóng và thuận tiện nhất như khi bạn đang tham gia một lớp học thật sự.
-</p>
-
-<p>
-Todoro team đang làm việc chăm chỉ, để ra mắt bạn trong thời gian sớm nhất.
-</p>
-
-<h4>
-Trân trọng,<br/>
-Todoro team.
-</h4>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155186157-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-155186157-1');
-</script>
-
+</head>
+<body>
+  <div id="container">
+    <header>
+      <a href="/">
+        <img src="./images/logo-256.png"/>
+        <span class="company-name">
+          Công ty cổ phần phần mềm<br/>
+          Số hóa Việt
+        </span>
+      </a> 
+    </header>
+    <div>
+      <div class="info-column info-column-red">
+        <a href="company.html">
+          Chúng tôi là ai?<br/>
+          Chúng tôi có thể giúp gì cho bạn?
+        </a>
+      </div>
+      <div class="info-column info-column-yellow">
+        <a href="contact.html">
+          Liên hệ với chúng tôi?
+        </a>
+      </div>
+      <div class="info-column info-column-blue">
+        <a href="join.html">
+          Tuyển dụng?
+        </a>
+      </div>
+    </div>
+    <footer>
+    </footer>
+  </div>
 </body>
 </html>
